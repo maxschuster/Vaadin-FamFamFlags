@@ -40,14 +40,14 @@ Contributions are welcome, but there are no guarantees that they are accepted as
 
 ## License & Author
 
-Add-on is distributed under Apache License 2.0. For license terms, see LICENSE.txt.
-
-FamFamFlags is written by Max Schuster
-
 The [Flags](http://www.famfamfam.com/lab/icons/flags/) icon set was created by 
 Mark James (http://www.famfamfam.com/) and is public domain.
 
 See: [licenses/famfamfam-flags.txt](licenses/famfamfam-flags.txt).
+
+Add-on is distributed under Apache License 2.0. For license terms, see LICENSE.txt.
+
+FamFamFlags is written by Max Schuster
 
 # Developer Guide
 

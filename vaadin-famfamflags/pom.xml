@@ -5,7 +5,7 @@
     <groupId>eu.maxschuster</groupId>
     <artifactId>vaadin-famfamflags</artifactId>
     <packaging>bundle</packaging>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <name>FamFamFlags</name>
 
     <properties>
@@ -187,7 +187,7 @@
                     <instructions>
                         <Bundle-SymbolicName>${project.groupId}.${project.artifactId}</Bundle-SymbolicName>
                         <Export-Package>
-                            eu.maxschuster.vaadin.famfamflags,
+                            eu.maxschuster.vaadin.famfamflags
                         </Export-Package>
                         <Import-Package>!com.google.gwt.*,!com.vaadin.client.*,*</Import-Package>
                         <_noee>true</_noee>

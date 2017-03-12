@@ -13,11 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package eu.maxschuster.vaadin.famfamflags.demo;
+package eu.maxschuster.vaadin.famfamflags.demo.v7;
 
 import com.vaadin.annotations.DesignRoot;
-import com.vaadin.ui.Grid;
 import com.vaadin.ui.Panel;
+import com.vaadin.ui.Table;
 import com.vaadin.ui.VerticalLayout;
 import com.vaadin.ui.declarative.Design;
 
@@ -28,7 +28,7 @@ import com.vaadin.ui.declarative.Design;
 @DesignRoot
 class DemoUILayout extends VerticalLayout {
     
-    Grid<LocaleRow> availableLocales;
+    Table availableLocales;
     Panel panel;
     
     DemoUILayout() {

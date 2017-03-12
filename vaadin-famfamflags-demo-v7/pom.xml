@@ -3,16 +3,16 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>eu.maxschuster</groupId>
-    <artifactId>vaadin-famfamflags-demo</artifactId>
+    <artifactId>vaadin-famfamflags-demo-v7</artifactId>
     <packaging>war</packaging>
     <version>2.0.0</version>
-    <name>FamFamFlags - Demo</name>
+    <name>FamFamFlags - Demo (Vaadin 7)</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
-        <vaadin.version>8.0.2</vaadin.version>
+        <vaadin.version>7.7.7</vaadin.version>
         <vaadin.plugin.version>${vaadin.version}</vaadin.plugin.version>
         <jetty.plugin.version>9.2.3.v20140905</jetty.plugin.version>
     </properties>
@@ -90,6 +90,11 @@
             <artifactId>javax.servlet-api</artifactId>
             <version>3.0.1</version>
             <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.vaadin</groupId>
+            <artifactId>viritin</artifactId>
+            <version>1.47</version>
         </dependency>
     </dependencies>
 

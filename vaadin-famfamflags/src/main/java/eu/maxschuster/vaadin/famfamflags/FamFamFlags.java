@@ -25,13 +25,13 @@ import java.util.Map;
  * A collection of country flags icons.
  *
  * <p>
- * This class allowes for easy use of the
+ * This class allows for easy use of the
  * "<a href="http://www.famfamfam.com/lab/icons/flags/">Flags</a>" icon set by
  * <a href="mailto:mjames@gmail.com">Mark James</a>.
  * </p>
  *
  * <p>
- * <b>Typical usecase:</b><br><br>
+ * <b>Typical use case:</b><br><br>
  * <code>
  * Button button = new Button();<br>
  * button.setCaption("Finland");<br>

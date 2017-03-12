@@ -1,6 +1,6 @@
 # FamFamFlags Add-on for Vaadin 7
 
-FamFamFlags is an icon resource collection add-on for Vaadin 7.
+FamFamFlags is an icon resource collection add-on for Vaadin 8 and Vaadin 7.
 
 ## Online demo
 
@@ -13,13 +13,27 @@ Official releases of this add-on are available at Vaadin Directory. For Maven in
 ## Building and running demo
 
 git clone https://github.com/maxschuster/Vaadin-FamFamFlags.git
+
+### Vaadin 8
+```
 mvn clean install
 cd vaadin-famfamflags-demo
 mvn jetty:run
+```
+
+### Vaadin 7
+```
+mvn clean install
+cd vaadin-famfamflags-demo-v7
+mvn jetty:run
+```
 
 To see the demo, navigate to http://localhost:8080/
  
 ## Release notes
+
+### Version 2.0.0
+- Check compatibility with Vaadin 8 and update demos
 
 ### Version 1.0.0
 - Initial release

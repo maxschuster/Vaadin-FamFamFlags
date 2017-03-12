@@ -21,10 +21,10 @@ limitations under the License.
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-    <vaadin-vertical-layout width-full spacing="false" margin="false">
-        <vaadin-css-layout style-name="title-wrapper" spacing="false" margin="false" width-full>
-            <vaadin-label style-name="title" width-full>
-                FamFamFlags
+    <vaadin-vertical-layout width-full>
+        <vaadin-css-layout style-name="title-wrapper" width-full>
+            <vaadin-label style-name="title">
+                FamFamFlags (Vaadin 7)
             </vaadin-label>
         </vaadin-css-layout>
         <vaadin-label style-name="sub-title" :center>
@@ -32,10 +32,10 @@ limitations under the License.
             <a href="http://www.famfamfam.com/lab/icons/flags/">Flags</a> icon
             set.
         </vaadin-label>
-        <vaadin-vertical-layout spacing="false" margin="false">
+        <vaadin-vertical-layout>
             <vaadin-panel _id="panel" caption="Demo" size-auto :center>
                 <vaadin-vertical-layout margin spacing>
-                    <vaadin-grid _id="availableLocales" caption="All available locales:" width="550px" height="350px" />
+                    <vaadin-table _id="availableLocales" caption="All available locales:" page-length="6" width="550px" />
                 </vaadin-vertical-layout>
             </vaadin-panel>
         </vaadin-vertical-layout>
